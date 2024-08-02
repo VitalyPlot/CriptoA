@@ -6,11 +6,10 @@ import ru.javarush.plotnikov.crypto.exception.AppException;
 
 import java.util.Arrays;
 
-import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.parameters;
 
 public class Application {
 
-    private MainController mainController;
+    private final MainController mainController;
     public Application () {
         mainController = new MainController();
 
